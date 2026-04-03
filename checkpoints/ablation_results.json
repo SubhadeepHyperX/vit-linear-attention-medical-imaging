@@ -1,0 +1,154 @@
+{
+  "Depth (num layers)": [
+    {
+      "label": "depth=2",
+      "val_acc": 0.8779,
+      "auc": 0.9365,
+      "params": 292130
+    },
+    {
+      "label": "baseline",
+      "val_acc": 0.8779,
+      "auc": 0.9449,
+      "params": 556322
+    },
+    {
+      "label": "depth=6",
+      "val_acc": 0.8969,
+      "auc": 0.9435,
+      "params": 820514
+    },
+    {
+      "label": "depth=8",
+      "val_acc": 0.8969,
+      "auc": 0.9509,
+      "params": 1084706
+    }
+  ],
+  "Heads (attention heads)": [
+    {
+      "label": "heads=1",
+      "val_acc": 0.8683,
+      "auc": 0.9306,
+      "params": 556322
+    },
+    {
+      "label": "heads=2",
+      "val_acc": 0.874,
+      "auc": 0.9429,
+      "params": 556322
+    },
+    {
+      "label": "baseline",
+      "val_acc": 0.8874,
+      "auc": 0.9464,
+      "params": 556322
+    },
+    {
+      "label": "heads=8",
+      "val_acc": 0.9008,
+      "auc": 0.9581,
+      "params": 556322
+    }
+  ],
+  "Patch size": [
+    {
+      "label": "patch_size=2",
+      "val_acc": 0.9179,
+      "auc": 0.9619,
+      "params": 579338
+    },
+    {
+      "label": "baseline",
+      "val_acc": 0.9084,
+      "auc": 0.9467,
+      "params": 556322
+    },
+    {
+      "label": "patch_size=8",
+      "val_acc": 0.9275,
+      "auc": 0.9702,
+      "params": 556418
+    }
+  ],
+  "Embedding dim": [
+    {
+      "label": "heads=2, dim=64",
+      "val_acc": 0.8531,
+      "auc": 0.9156,
+      "params": 143010
+    },
+    {
+      "label": "baseline",
+      "val_acc": 0.895,
+      "auc": 0.9538,
+      "params": 556322
+    },
+    {
+      "label": "heads=8, dim=256",
+      "val_acc": 0.8855,
+      "auc": 0.9447,
+      "params": 2193954
+    }
+  ],
+  "MLP expansion ratio": [
+    {
+      "label": "mlp_ratio=1",
+      "val_acc": 0.8569,
+      "auc": 0.9338,
+      "params": 416354
+    },
+    {
+      "label": "baseline",
+      "val_acc": 0.8855,
+      "auc": 0.9378,
+      "params": 556322
+    },
+    {
+      "label": "mlp_ratio=4",
+      "val_acc": 0.8817,
+      "auc": 0.9513,
+      "params": 836258
+    }
+  ],
+  "Dropout rate": [
+    {
+      "label": "dropout=0.0",
+      "val_acc": 0.9046,
+      "auc": 0.95,
+      "params": 556322
+    },
+    {
+      "label": "baseline",
+      "val_acc": 0.895,
+      "auc": 0.9491,
+      "params": 556322
+    },
+    {
+      "label": "dropout=0.2",
+      "val_acc": 0.8798,
+      "auc": 0.9391,
+      "params": 556322
+    },
+    {
+      "label": "dropout=0.3",
+      "val_acc": 0.834,
+      "auc": 0.8837,
+      "params": 556322
+    }
+  ],
+  "Attention type": [
+    {
+      "label": "baseline",
+      "val_acc": 0.8912,
+      "auc": 0.9396,
+      "params": 556322
+    },
+    {
+      "label": "attn_type=linear",
+      "val_acc": 0.8149,
+      "auc": 0.8837,
+      "params": 556322
+    }
+  ]
+}
